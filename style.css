@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;1,100&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+  font-family: 'Kanit', sans-serif;
+}
+
+header {
+  height: 15vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  align-content: center;
+  justify-content: stretch;
+  align-items: center;
+  justify-items: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.title {
+  align-self: center;
+  justify-self: center;
+}
+
+.progress {
+  width: 1000px;
+  align-self: center;
+  justify-self: center;
+}
+
+main {
+  height: 80vh;
+  display: grid;
+  grid-template-rows: 500px 1fr 1fr 1fr;
+  gap: 10px 0px;
+  align-content: center;
+  justify-content: stretch;
+  align-items: center;
+  justify-items: center;
+}
+
+canvas {
+  align-self: center;
+  justify-self: center;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.control {
+  width: 1000px;
+  align-self: center;
+  justify-self: center;
+}
+
+footer {
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #005662;
+  color: white;
+  text-transform: uppercase;
+}
