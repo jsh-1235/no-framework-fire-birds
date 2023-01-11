@@ -10,10 +10,10 @@
 header {
   height: 15vh;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr auto;
   gap: 0px 0px;
   align-content: center;
-  justify-content: stretch;
+  justify-content: center;
   align-items: center;
   justify-items: center;
   color: white;
@@ -22,7 +22,8 @@ header {
 
 .title {
   align-self: center;
-  justify-self: center;
+  justify-self: stretch;
+  text-align: center;
 }
 
 .progress {
@@ -33,11 +34,12 @@ header {
 
 main {
   height: 80vh;
+  /* width: 100%; */
   display: grid;
   grid-template-rows: 500px 1fr 1fr 1fr;
   gap: 10px 0px;
   align-content: center;
-  justify-content: stretch;
+  justify-content: center;
   align-items: center;
   justify-items: center;
 }
@@ -49,9 +51,8 @@ canvas {
 }
 
 .control {
-  width: 1000px;
   align-self: center;
-  justify-self: center;
+  justify-self: stretch;
 }
 
 footer {
@@ -61,7 +62,7 @@ footer {
   align-content: center;
   justify-content: center;
   align-items: center;
-  background-color: #005662;
+  background-color: #1c313a;
   color: white;
   text-transform: uppercase;
 }
